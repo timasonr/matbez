@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Структура сайта</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="sheet">
+    <header class="doc">
+      <h1>Структура сайта</h1>
+      <p class="doc__note">Состав блоков для согласования. Здесь нет оформления и фотографий.</p>
+    </header>
+
+    <p class="mark">Пометка: в кнопках стоит заглушка. Нужна прямая ссылка на личные сообщения в Telegram — её можно подставить в обоих местах сразу.</p>
+
+    <ol class="blocks">
+      <li class="block" id="hero">
+        <div class="block__meta">
+          <span class="num">01</span>
+          <h2>Шапка</h2>
+          <p>Первый экран. Заголовок, короткое пояснение и кнопка записи.</p>
+        </div>
+        <div class="frame">
+          <div class="stack">
+            <div class="slot slot--title">Математика Без Ху%!ни</div>
+            <div class="slot slot--text">Понятные объяснения от преподавателя с 10-летним опытом на YouTube. Подготовка к экзаменам, устранение пробелов.</div>
+            <ul class="menu">
+              <li><a href="https://t.me/" target="_blank" rel="noopener">Записаться в Telegram</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+
+      <li class="block" id="formats">
+        <div class="block__meta">
+          <span class="num">02</span>
+          <h2>Форматы и стоимость</h2>
+          <p>Две колонки. На телефоне одна под другой.</p>
+        </div>
+        <div class="frame">
+          <div class="slot slot--line">Форматы и стоимость</div>
+          <div class="cols cols--2">
+            <article class="slot slot--card">
+              <strong>Индивидуально</strong>
+              <span class="price">1500 ₽ / час</span>
+              <span>Личный темп, разбор ваших задач и тем.</span>
+            </article>
+            <article class="slot slot--card">
+              <strong>Вдвоем (пара)</strong>
+              <span class="price">1000 ₽ / час (с человека)</span>
+              <span>Выгодный формат для друзей или одноклассников.</span>
+            </article>
+          </div>
+        </div>
+      </li>
+
+      <li class="block" id="lessons">
+        <div class="block__meta">
+          <span class="num">03</span>
+          <h2>Как проходят уроки</h2>
+          <p>Три пункта в ряд. На телефоне друг под другом.</p>
+        </div>
+        <div class="frame">
+          <div class="slot slot--line">Как проходят уроки</div>
+          <ol class="steps">
+            <li>
+              <span class="steps__n">1</span>
+              <span>Онлайн-формат (Яндекс.Телемост).</span>
+            </li>
+            <li>
+              <span class="steps__n">2</span>
+              <span>Работа на цифровой интерактивной доске (все формулы и записи остаются у вас в PDF после занятия).</span>
+            </li>
+            <li>
+              <span class="steps__n">3</span>
+              <span>Объяснение наглядным языком без зубрежки.</span>
+            </li>
+          </ol>
+        </div>
+      </li>
+
+      <li class="block" id="cta">
+        <div class="block__meta">
+          <span class="num">04</span>
+          <h2>Финальный блок</h2>
+          <p>Призыв написать в личные сообщения. Без формы заявки.</p>
+        </div>
+        <div class="frame">
+          <div class="slot slot--text">Остались вопросы по темам или хотите подобрать удобное время? Напишите мне в личные сообщения — обсудим вашу задачу.</div>
+          <ul class="menu">
+            <li><a href="https://t.me/" target="_blank" rel="noopener">Написать в Telegram</a></li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </div>
+</body>
+</html>
